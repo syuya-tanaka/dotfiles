@@ -1,0 +1,46 @@
+# Inserts a blank line between shell prompts
+add_newline = true
+
+[character]
+format = "🧠 "
+vicmd_symbol = "🧠 "
+success_symbol = "🌕"
+error_symbol = "🤷‍♀️"
+
+[username]
+style_user = "white bold"
+style_root = "red bold"
+format = "user: [$user]($style) "
+disabled = false
+
+[directory]
+# style = "fg:#faee0c"
+# style = "fg:#a272ff"
+# style = "fg:#A648FF"
+style = "fg:#DB5EFF"
+truncation_length = 100
+truncate_to_repo = false
+
+[python]
+symbol = "😈 "
+python_binary = ["python3"]
+
+[git_branch]
+style = "fg:#00ff0d"
+symbol = "🎱"
+
+[git_commit]
+commit_hash_length = 4
+tag_symbol = "🔖 "
+
+[git_status]
+conflicted = "⚡️"
+ahead = "🏎💨"
+behind = "😰"
+diverged = "😵"
+untracked = "🤷"
+stashed = "📦"
+modified = "📝"
+staged = '[++\($count\)](green)'
+renamed = "👅"
+deleted = "🗑"
