@@ -17,5 +17,5 @@ toggle_term.setup {
  -- open a vertical terminal if new
 vim.keymap.set('n', '<leader>ov', [[<Cmd>ToggleTerm direction=vertical size=40<CR>]], {})
 -- open a horizontal terminal if new
-vim.keymap.set('n', '<leader>oh', [[<Cmd>ToggleTerm direction=horizontal<CR>]], {})
+vim.keymap.set('n', '<leader>oh', [[<Cmd>ToggleTerm direction=float<CR>]], {})
 
