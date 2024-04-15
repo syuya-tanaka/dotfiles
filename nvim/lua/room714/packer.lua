@@ -166,6 +166,8 @@ return require('packer').startup(function(use)
 
 	use { "folke/todo-comments.nvim" }
 
+	use { "kdheepak/lazygit.nvim" }
+
 	-- dap(Debug adapter protocol)
 	-- dapは、EditorとDebuggerの間で行われるやりとりを抽象的にまとめたプロトコル。
 	-- 関係図: Editor ←→ DAP ←→ Debugger
