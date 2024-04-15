@@ -91,3 +91,5 @@ vim.keymap.set('n', '<leader>tl', ':TodoLocList<CR>')
 -- Noice
 vim.keymap.set('n', '<leader>nf', ':NoiceHistory<CR>', {silent = true})
 
+-- lazygit
+vim.keymap.set('n', '<leader>lg', ':LazyGit<CR>', opts)
