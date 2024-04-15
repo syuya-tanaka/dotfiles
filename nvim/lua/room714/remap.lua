@@ -73,7 +73,7 @@ vim.keymap.set("n", "<leader>cb", ":bdelete<CR>", { silent = true })
 vim.keymap.set("n", "<leader>ex", "<cmd>!chmod +x %<CR>", { silent = true })
 
 -- Trouble
-vim.keymap.set('n', "<leader>xx", ":TroubleToggle<CR>")
+vim.keymap.set('n', "<leader>xx", ":TroubleToggle<CR>", opts)
 
 -- Inc-rename
 vim.keymap.set("n", "<leader>cr", ":IncRename ")
