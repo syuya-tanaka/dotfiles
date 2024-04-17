@@ -16,10 +16,10 @@ return require('packer').startup(function(use)
 	}
 
 	use({
-		'Mofiqul/dracula.nvim',
-		as = 'dracula',
-		config = function()
-			vim.cmd('colorscheme dracula')
+		'rose-pine/neovim',
+		as = 'rose-pine',
+		config = function ()
+			vim.cmd('colorscheme rose-pine')
 		end
 	})
 
