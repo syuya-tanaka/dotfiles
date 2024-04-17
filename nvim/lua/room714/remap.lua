@@ -93,3 +93,6 @@ vim.keymap.set('n', '<leader>nf', ':NoiceHistory<CR>', {silent = true})
 
 -- lazygit
 vim.keymap.set('n', '<leader>lg', ':LazyGit<CR>', opts)
+
+-- diffview
+vim.keymap.set('n', '<leader>dh', ':DiffviewFileHistory<CR>', opts)
