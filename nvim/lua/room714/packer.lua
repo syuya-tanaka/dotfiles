@@ -158,8 +158,6 @@ return require('packer').startup(function(use)
 
 	use { "folke/trouble.nvim" }
 
-	use {"preservim/tagbar"}
-
 	use { "Pocco81/auto-save.nvim" }
 
 	use { "lewis6991/gitsigns.nvim" }
