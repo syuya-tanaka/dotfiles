@@ -37,6 +37,19 @@ require("dapui").setup({
 })
 
 
+-- default keymaps
+-- key	Description
+-- c	continue
+-- n	next
+-- s	step
+-- o	stepout
+-- S	cap S: stop debug
+-- u	up
+-- D	cap D: down
+-- C	cap C: run to cursor
+-- b	toggle breakpoint
+-- P	cap P: pause
+-- p	print, hover value (also in visual mode)
 
 vim.keymap.set('n', '<leader>go', ':GoRun<CR>', {silent = true})
 vim.keymap.set('n', '<leader>gf', ':GoFmt<CR>', {silent = true})
@@ -45,3 +58,5 @@ vim.keymap.set('n', '<leader>gD', ':GoDoc ')
 vim.keymap.set('n', '<leader>gd', ':GoDebug<CR>', {silent = true})
 vim.keymap.set('n', '<leader>ds', ':GoDbgStop<CR>', {silent = true})
 vim.keymap.set('n', '<leader>gs', ':GoStop<CR>', {silent = true})
+
+

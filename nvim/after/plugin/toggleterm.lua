@@ -19,3 +19,5 @@ vim.keymap.set('n', '<leader>ov', [[<Cmd>ToggleTerm direction=vertical size=40<C
 -- open a horizontal terminal if new
 vim.keymap.set('n', '<leader>oh', [[<Cmd>ToggleTerm direction=float<CR>]], {})
 
+-- ウィンドウを消さずに移動するための前処理。
+-- defaultではウィンドウ開いて [<crtl-\><ctrl-n>]で動く。
