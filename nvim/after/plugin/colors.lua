@@ -11,6 +11,8 @@ function ColorMyPencils(color)
 
     vim.cmd('highlight SignColumn guibg=NONE')
 
+	vim.cmd 'set winhighlight=NormalNC:none'
+
 end
 
 ColorMyPencils()

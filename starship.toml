@@ -27,7 +27,8 @@ python_binary = ["python3"]
 
 [git_branch]
 style = "fg:#00ff0d"
-symbol = "🎱 "
+symbol = " "
+
 
 [git_commit]
 commit_hash_length = 4
