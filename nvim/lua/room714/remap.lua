@@ -61,6 +61,8 @@ vim.keymap.set("n", "<C-j>", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<C-k>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
+vim.keymap.set('n', "<leader>xx", ":copen<CR>")
+vim.keymap.set('n', "<leader>xl", ":cclose<CR>")
 
 -- Switching Buffers.
 vim.keymap.set("n", "<leader>n", ":bprev<CR>", { silent = true })
@@ -71,9 +73,6 @@ vim.keymap.set("n", "<leader>cb", ":bdelete<CR>", { silent = true })
 
 -- Grant execute permission to the current file.
 vim.keymap.set("n", "<leader>ex", "<cmd>!chmod +x %<CR>", { silent = true })
-
--- Trouble
-vim.keymap.set('n', "<leader>xx", ":TroubleToggle<CR>", opts)
 
 -- Inc-rename
 vim.keymap.set("n", "<leader>cr", ":IncRename ")

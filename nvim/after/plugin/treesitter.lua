@@ -4,11 +4,11 @@ require'nvim-treesitter.configs'.setup {
   ensure_installed = {
 	  "go",
 	  "python",
+	  "java",
 	  "javascript",
 	  "c",
 	  "lua",
 	  "vim",
-	  "vimdoc",
 	  "query",
 	  "http",
 	  "html",

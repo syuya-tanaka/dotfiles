@@ -9,6 +9,7 @@ require('mason-lspconfig').setup({
 		'pyright',
 		'lua_ls',
 		'gopls',
+		'jdtls',
 	},
 	handlers = {
 		lsp.default_setup,
